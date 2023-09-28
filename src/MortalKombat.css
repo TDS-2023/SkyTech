@@ -1,0 +1,55 @@
+
+
+.doisconteudo{
+    display: inline-block;
+    position: relative;
+    color: #999999;
+	margin: 10px 35px; 
+	padding: 10px 50px; 
+	line-height: 20px;
+	border: 1px solid #1a1a1a;
+	border-radius: 25px;
+	background-image: radial-gradient(#0E0E1D,	#101035 ,#161650);
+}
+.doisimg{
+    position: absolute;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .doisconteudo {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .doisimg {vertical-align: middle;}
+  
+  .container .conteudo {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .butao
+  {
+  background-color: #ff0000;
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  padding: 13px 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 60;
+  }

@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,900&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Asap', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #0E0E1D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 750px;
+  height: 70px;
+  border-bottom: solid 1.5px #661818;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+a:hover {
+  transition: ease-in .2s;
+  color: #e93434;
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  position: absolute;
+  background-color: #0E0E1D;
+  min-width: 200px;
+  top: 35px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropup-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.dropup-content a:hover {
+  color: #ee313e;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  color: #0E0E1D;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-image: linear-gradient(to top, #0E0E1D, #101035);
+  font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
+}
+
+/*------- não mecher acima ------*/
+
+
+
+
+
+
+/*---- Elementos do  Html ----*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 10px 0;
+  color: #ffffff;
+}
+
+/*alterações dos H's*/
+
+h1 {
+  font-size: 32px;
+}
+
+/*tamanho da fonte dos H's*/
+
+h2,
+h4 {
+  font-size: 28px;
+}
+
+/*tamanho da fonte dos H's*/
+
+h3 {
+  font-size: 24px;
+}
+
+/*tamanho da fonte dos H's*/
+
+h5,
+h6 {
+  font-size: 17px;
+}
+
+/*tamanho da fonte dos H's*/
+
+
+ul,
+ol,
+dl {
+  /*caixa da lista desordenada, ordenada e perguntas frequentes*/
+  color: #999999;
+  margin: 10px 35px;
+  padding: 10px 50px;
+  line-height: 20px;
+  border: 1px solid #1a1a1a;
+  border-radius: 25px;
+  background-image: radial-gradient(#0E0E1D, #101035, #161650);
+  /*cores anteriores linear gradient -- #0E0E1D,#101035*/
+}
+
+ul {
+  list-style-type: square;
+}
+
+/*bolinhas da lista desordenada viram quadrados*/
+
+dt {
+  /*parte das perguntas*/
+
+  margin: 0;
+  color: #7799bb;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 0 2px;
+  text-transform: uppercase;
+}
+
+dd {
+  /*parte das respostas*/
+  margin: 0;
+  padding: 2px 0 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px dotted #555555;
+}
+
+/* Estrutura -- maior part auto explicativa*/
+
+#caixas {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#caixaDasperguntas {
+  width: 60%;
+  float: left;
+}
+
+#perguntas {
+  float: left;
+  padding: 0 20px;
+}
+
+#caixasDaDireita {
+  width: 40%;
+  float: left;
+}
+
+#melhoresJogos {
+  float: left;
+  padding: 0px;
+}
+
+#melhoresJogos p
+
+/* Caixas direitas */
+  {
+  color: #999999;
+  margin: 10px 35px;
+  padding: 5px 30px;
+  border: 1px solid #1a1a1a;
+  border-top: 10px solid #151515;
+}
+
+strong {
+  color: #ff0000;
+}
+
+.Forum {
+  padding: 5px 5px 5px 150px;
+}
+
+footer {
+  color: #999999;
+  margin: 10px 35px;
+  padding: 10px 50px;
+  line-height: 20px;
+  border: 1px solid #1a1a1a;
+  border-radius: 25px;
+  background-image: linear-gradient(#0E0E1D, #101035);
+}
