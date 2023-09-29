@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@300&display=swap');
+
 body {
-    background-color: #000;
+    background-color: #0E0E1D;
 }
 
 
@@ -15,17 +17,21 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 .bloco1 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.bloco1 h1{
+    font-size: 35px
+}
 .bloco1 p {
     padding: 10px;
     text-align: center;
+    font-size: 16px;
 }
 
 .planos {
@@ -44,13 +50,13 @@ main {
     background-color: #333;
     border-radius: 5px;
     align-items: center;
-    width: 400px;
+    width: 450px;
 }
 
 .plano-pro {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     align-items: center;
     width: 100%;
 }
@@ -58,20 +64,22 @@ main {
 .btn {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
     text-align: center;
+    font-size: 18px;
 }
 
 .bloco3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .bloco3 p {
     text-align: center;
-    color: whitesmoke;
+    color: whitesmoke; 
+    font-size: 14px; 
 }
 
 .bloco3 button {
@@ -80,8 +88,9 @@ main {
     border-radius: 10px;
     border: none;
     margin-bottom: 10px;
+    font-size: 18px;
+    
 }
-
 .glow-on-hover {
     border: none;
     outline: none;
@@ -165,6 +174,7 @@ main {
 #shadow {
     position: relative;
     background: linear-gradient(0deg, #000, #262626);
+    border-radius: 10px;
 }
 
 #shadow:before,
@@ -198,3 +208,4 @@ main {
         background-position: 0 0;
     }
 }
+

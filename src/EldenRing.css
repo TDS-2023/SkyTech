@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #0E0E1D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 750px;
+    height: 70px;
+    border-bottom: solid 1.5px #661818;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    transition: ease-in .2s;
+    color: #e93434;
+  }
+
+  .dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #0E0E1D;
+    min-width: 200px;
+    top: 35px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropup-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+  }
+
+  .dropup-content a:hover {
+    color: #ee313e;
+  }
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .banner {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    color: #0E0E1D;
+    background-color: #000000;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #0E0E1D, #101035);
+    font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
+  }
+  
+  /*------- não mecher acima ------*/
+
+  .container {      /*    parte do video e da caixa de dentro do video  'planos e tals'   */
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+  
+    .container .conteudo {    /*   conteudo = caixa de dentro de video   */
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.685); /*  cor da caixa de conteudo com opacidade nao padrao  */
+    color: #f1f1f1;     /*cor das palavras */
+    width: 24%;      /*medidas da caixa*/
+    padding: 20px;
+    max-height: 25%;
+    bottom: 15%;
+    left: 9.5%;
+    top: 450px;
+    border-radius: 7px;
+    }
+  
+  /* imagens do slideshow */
+  .slideshow-imgs {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* botoes de 'avançar' e 'voltar' no slide */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Posicao do botao 'avançar' na direita do slide */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* botao 'avança' e 'volta' fica preto com hover */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    color: #0E0E1D;
+    background-color: #000000;
+    background-attachment: local;
+    background-image: linear-gradient(to bottom, #0c0b0b,#000000 , #12016ee6);
+    font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
+  }
+  
+  .butao{
+    border: 5px solid #ffffff;
+    border-style: double;
+    padding: 6px;
+}
+
+footer{
+  border-top: solid 1px #661818;
+  align-items: center;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #00000025, #12016ee6,#00000050);
+  padding-top: 20px;
+  padding-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.conteudo-rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-rodape h1{
+  width: 50%;
+  font-size: 40px;
+}
+ 
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.links:hover{
+  color: #F31020;
+  transition: .2s ease-in;
+}
+
+.rodape h1{
+  background-image: linear-gradient(to bottom, #F31020, #d26a6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
