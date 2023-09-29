@@ -155,3 +155,54 @@ html {
   padding: 6px;
 
 }
+/* FOOTER */
+
+footer{
+  border-top: solid 1px #661818;
+  background-image: linear-gradient(#232344, #101035,rgb(20, 20, 34));
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.readdead{
+  margin-left: 30px;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.conteudo-rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-rodape h1{
+  width: 50%;
+  font-size: 40px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.links:hover{
+  color: #F31020;
+  transition: .2s ease-in;
+}
+
+.rodape h1{
+  background-image: linear-gradient(to bottom, #f31020, #d26a6a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
