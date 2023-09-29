@@ -98,6 +98,7 @@ a:hover {
   background: rgba(0, 0, 0, 0.685); /*  cor da caixa de conteudo com opacidade nao padrao  */
   color: #f1f1f1;     /*cor das palavras */
   width: 24%;      /*medidas da caixa*/
+  max-height: 25%;
   padding: 20px;
   bottom: 15%;
   left: 9.5%;
@@ -140,18 +141,60 @@ a:hover {
 }
 
 html {
-  margin: 0;
-  padding: 0;
-  color: #0E0E1D;
   background-color: #000000;
-  background-attachment: local;
   background-image: linear-gradient(to bottom, #0E0E1D,#00000036 , #0e0e42);
-  font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
 }
 
 .butao{
   border: 5px solid #ffffff;
   border-style: double;
   padding: 6px;
+}
 
+
+footer{
+  border-top: solid 1px #661818;
+  align-items: center;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom,#00000025,#12038148,#00000050);
+  padding-top: 20px;
+  padding-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.conteudo-rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-rodape h1{
+  width: 50%;
+  font-size: 40px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.links:hover{
+  color: #F31020;
+  transition: .2s ease-in;
+}
+
+.rodape h1{
+  background-image: linear-gradient(to bottom, #f31020, #d26a6a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
