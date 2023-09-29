@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,900&family=Kanit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
 
 
 * {
   box-sizing: border-box;
-  font-family: 'Asap', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  color: #0E0E1D;
+  color:white;
 }
 
 body {
@@ -24,7 +23,7 @@ header {
   height: 70px;
   border-bottom: solid 1.5px #661818;
 }
-
+/* BARRA DE NAVEGAÇÃO */
 .menu {
   display: flex;
   flex-direction: row;
@@ -35,6 +34,7 @@ a {
   text-decoration: none;
   color: #ffffff;
   font-size: 18px;
+  font-weight: bold;
 }
 
 a:hover {
@@ -103,6 +103,7 @@ a:hover {
 .grade_de_lancamento {
   display: inline;
   position: relative;
+  box-sizing: inherit;
 }
 
 .guia_de_lancamento {
@@ -110,6 +111,7 @@ a:hover {
   background-image: url(../img/avatar_background3.jpg);
   background-size: cover;
   background-position: 50%;
+  box-shadow: none;
   -moz-box-shadow: 0px 20px 20px #ff0000;
   -webkit-box-shadow: 0px 15px 40px #ff0000;
 }
@@ -137,6 +139,7 @@ a:hover {
 .button_reserva {
   font-size: 30px;
   width: 350%;
+  color: #0E0E1D;
   background-color: #FFFFFF;
   border-radius: 40px;
   cursor: pointer;
@@ -150,8 +153,37 @@ a:hover {
 }
 
 /* JOGOS */
+.grade_de_jogos{
+  background-image: linear-gradient(#25254e,#0E0E1D);
+  
+}
+.nome_principais_jogos{
+  font-size: 40px;
+  color: #FFFFFF;
+  padding-left: 5%;
+  padding-top:3%;
+}
+.grade_principais_jogos{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.nome_mais_jogos{
+  font-size: 40px;
+  color: #FFFFFF;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.grade_mais_jogos{
+  display: flex;
+  justify-content: flex-start;
+}
+.imagem_jogo{
+  margin: 5px;
+  padding-top: 2%;
+}
 
-/* GUIA DE FRANQUIAS */
+/* FRANQUIAS DE SUCESSO */
 strong {
   color: #ff0000;
 }
@@ -167,20 +199,95 @@ strong {
 
 .galeria1 {
   display: flex;
-  width: 100%;
-  height: 100%;
+  justify-content:center;
 }
 
-.galeria1 img {
+.galeria1 a img {
   aspect-ratio: 9/16;
   min-width: 0;
-  flex: 1 1 10px;
+  width: 100%; /* Garanta que a imagem ocupe toda a largura da âncora */
+  height: auto;
   object-fit: cover;
-  opacity: .5;
-  transition: .5s;
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
-.galeria1 img:hover {
+.galeria1 a img {
+  aspect-ratio: 9/16;
+  min-width: 0;
+  width: 100%; /* Garanta que a imagem ocupe toda a largura da âncora */
+  height: auto;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.galeria1 a {
+  text-decoration: none; /* Remova a decoração de texto das âncoras */
+  color: inherit; /* Mantenha a cor do texto herdada */
+  flex-basis: calc(25% - 20px); /* Defina a largura das âncoras com um espaço entre elas */
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px; /* Adicione um espaço horizontal entre as imagens */
+}
+
+.galeria1 a:hover img {
   opacity: 1;
   cursor: pointer;
+  transform: scale(1.05);
+}
+
+.galeria1 a:last-child {
+  margin-right: 0; /* Remove a margem à direita da última imagem */
+}
+/* FOOTER */
+
+footer{
+  border-top: solid 1px #661818;
+  background-image: linear-gradient(#232344, #101035,rgb(20, 20, 34));
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 1%;
+  font-family: "Roboto", sans-serif;
+}
+
+.readdead{
+  margin-left: 30px;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.conteudo-rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-rodape h1{
+  width: 50%;
+  font-size: 40px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.links:hover{
+  color: #F31020;
+  transition: .2s ease-in;
+}
+
+.rodape h1{
+  background-image: linear-gradient(to bottom, #f31020, #d26a6a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
