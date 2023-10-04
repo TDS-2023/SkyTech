@@ -174,7 +174,6 @@ main {
 #shadow {
     position: relative;
     background: linear-gradient(0deg, #000, #262626);
-    border-radius: 10px;
 }
 
 #shadow:before,
@@ -189,6 +188,7 @@ main {
     height: calc(100% + 4px);
     z-index: -1;
     animation: animate 20s linear infinite;
+    border-radius: 5px;
 }
 
 #shadow:after {
@@ -208,4 +208,5 @@ main {
         background-position: 0 0;
     }
 }
+
 

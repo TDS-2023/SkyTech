@@ -23,3 +23,11 @@ document.addEventListener("DOMContentLoaded", function () {
     // Inicia a troca automática a cada 3 segundos (3000ms)
     setInterval(nextImage, 3000);
 });
+
+var btn = document.querySelector(".enviar");
+
+btn.addEventListener("click", click);
+
+function Enviar(){
+    alert("Mensagem enviada com sucesso, aguarde uma resposta de um de nossos suport em seu e-mail!");
+};
