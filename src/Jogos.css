@@ -188,7 +188,9 @@ a:hover {
 strong {
   color: #ff0000;
 }
-
+.galeria{
+  display: block;
+}
 .nome_jogo {
   background-image: linear-gradient(#0E0E1D, #101035);
   padding: 30px;
