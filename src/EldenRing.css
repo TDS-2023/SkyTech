@@ -83,7 +83,10 @@
     margin: 0 auto;
     }
     .conteudo p{
-      font-size: 15px;
+      font-size: 16px;
+    }
+    .conteudo  h1{
+      font-size: 30px;
     }
 
   
