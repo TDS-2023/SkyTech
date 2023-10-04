@@ -87,16 +87,16 @@ a:hover {
 /*CABECALHO/BARRA DE NAVEGACAO ACIMA  */
 
 
-  .container {      /* Parte do video e da caixa de dentro do video */
+  .container {      /* TRAILER/CAIXA DO VIDEO */
   position: relative;
   max-width: 100%;
   margin: 0 auto;
   }
 
-  .container .conteudo {    /*   conteudo = caixa de dentro de video   */
+  .container .conteudo { 
   position: absolute;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.685); /*  cor da caixa de conteudo com opacidade nao padrao  */
+  background: rgba(0, 0, 0, 0.685); /* COR DA CAIXA DE CONTEUDO COM OPACIDADE N√O PADR√O  */
   color: #f1f1f1;    
   width: 24%;      
   max-height: 25%;
@@ -107,14 +107,14 @@ a:hover {
   border-radius: 7px;
   }
 
-/* imagens do slideshow */
+/*IMAGENS DO SLIDESHOW */
 .slideshow-imgs {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* botoes de 'avanÁar' e 'voltar' no slide */
+/* BOT’ES DE 'AVAN«AR' E 'VOLTAR' NO SLIDE*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -130,13 +130,13 @@ a:hover {
   user-select: none;
 }
 
-/* Posicao do botao 'avan√ßar' na direita do slide */
+/* POSI«√O DO BOT√O 'AVAN«AR'*/
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* botao 'avan√ßa' e 'volta' fica preto com hover */
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -146,14 +146,14 @@ html {
   background-image: linear-gradient(to bottom, #0E0E1D,#00000036 , #0e0e42);
 }
 
-/*bot„o da caixa de video*/
+/*BOT√O DA CAIXA DO TRAILER*/
 .butao{
   border: 5px solid #ffffff;
   border-style: double;
   padding: 6px;
 }
 
-/*footer Abaixo*/
+/*FOOTER ABAIXO*/
 footer{
   border-top: solid 1px #661818;
   align-items: center;

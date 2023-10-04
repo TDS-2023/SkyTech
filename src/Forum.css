@@ -80,7 +80,7 @@ a:hover {
 .dropup:hover .dropup-content {
   display: block;
 }
-/*Cabecalho/Barra de navegacao Acima*/
+/*CABE«ALHO/BARRA DE NAVEGA«√O*/
 html {
   margin: 0;
   padding: 0;
@@ -90,7 +90,7 @@ html {
   background-image: linear-gradient(to top, #0E0E1D, #101035);
   font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
 }
-/*---- Elementos do  Html Acima----*/
+/*----ELEMENTOS DO HTML ACIMA----*/
 
 h1,
 h2,
@@ -104,39 +104,37 @@ h6 {
   color: #ffffff;
 }
 
-/*altera√ß√µes dos H's*/
+
 
 h1 {
   font-size: 32px;
 }
 
-/*tamanho da fonte dos H's*/
 
 h2,
 h4 {
   font-size: 16px;
 }
 
-/*tamanho da fonte dos H's*/
+
 
 h3 {
   font-size: 24px;
 }
 
-/*tamanho da fonte dos H's*/
 
 h5,
 h6 {
   font-size: 17px;
 }
 
-/*tamanho da fonte dos H's*/
+
 
 
 ul,
 ol,
 dl {
-  /*caixa da lista desordenada, ordenada e perguntas frequentes*/
+  /*CAIXA DA LISTA DESORDENADA,ORDENADA E PERGUNTAS FREQUENTES*/
   color: #999999;
   margin: 10px 35px;
   padding: 10px 50px;
@@ -144,17 +142,17 @@ dl {
   border: 1px solid #1a1a1a;
   border-radius: 25px;
   background-image: radial-gradient(#0E0E1D, #101035, #161650);
-  /*cores anteriores linear gradient -- #0E0E1D,#101035*/
+
 }
 
 ul {
   list-style-type: square;
 }
 
-/*bolinhas da lista desordenada viram quadrados*/
+
 
 dt {
-  /*parte das perguntas*/
+  /*PERGUNTAS*/
 
   margin: 0;
   color: #7799bb;
@@ -165,14 +163,14 @@ dt {
 }
 
 dd {
-  /*parte das respostas*/
+  /*RESPOSTAS*/
   margin: 0;
   padding: 2px 0 5px;
   margin-bottom: 5px;
   border-bottom: 1px dotted #555555;
 }
 
-/* Estrutura -- maior part auto explicativa*/
+/* ESTRUTURA*/
 
 #caixas {
   clear: both;
@@ -202,8 +200,7 @@ dd {
 }
 
 #melhoresJogos p
-
-/* Caixas direitas */
+/*CAIXAS DIREITAS*/
   {
   color: #999999;
   margin: 10px 35px;
@@ -219,7 +216,7 @@ strong {
 .Forum {
   padding: 5px 5px 5px 150px;
 }
-/*Footer Abaixo*/
+/*FOOTER ABAIXO*/
 footer{
   border-top: solid 1px #661818;
   align-items: center;

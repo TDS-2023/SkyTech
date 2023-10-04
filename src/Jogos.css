@@ -208,7 +208,7 @@ strong {
 .galeria1 a img {
   aspect-ratio: 9/16;
   min-width: 0;
-  width: 100%; /* Garanta que a imagem ocupe toda a largura da âncora */
+  width: 100%; /* GARANTE QUE A IMAGEM OCUPE TODA LARGURA DA �NCORA */
   height: auto;
   object-fit: cover;
   opacity: 0.5;
@@ -218,7 +218,7 @@ strong {
 .galeria1 a img {
   aspect-ratio: 9/16;
   min-width: 0;
-  width: 100%; /* Garanta que a imagem ocupe toda a largura da âncora */
+  width: 100%; /*  GARANTE QUE A IMAGEM OCUPE TODA LARGURA DA �NCORA */
   height: auto;
   object-fit: cover;
   opacity: 0.5;
@@ -226,12 +226,12 @@ strong {
 }
 
 .galeria1 a {
-  text-decoration: none; /* Remova a decoração de texto das âncoras */
-  color: inherit; /* Mantenha a cor do texto herdada */
-  flex-basis: calc(25% - 20px); /* Defina a largura das âncoras com um espaço entre elas */
+  text-decoration: none; 
+  color: inherit; /* MANTENHA A COR DO TEXTO HERDADA */
+  flex-basis: calc(25% - 20px); /* DEFINA A LARGURA DAS �NCORAS COM UM ESPA�O ENTRE ELAS */
   position: relative;
   overflow: hidden;
-  margin-right: 10px; /* Adicione um espaço horizontal entre as imagens */
+  margin-right: 10px; /* ADICIONE UM ESPA�O HORIZONTAL ENTRE AS IMAGENS */
 }
 
 .galeria1 a:hover img {
@@ -241,7 +241,7 @@ strong {
 }
 
 .galeria1 a:last-child {
-  margin-right: 0; /* Remove a margem à direita da última imagem */
+  margin-right: 0; /*REMOVE A MARGEM A  DIREITA DA ULTIMA IMAGEM*/
 }
 /* FOOTER ABAIXO */
 

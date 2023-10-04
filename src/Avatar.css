@@ -83,21 +83,21 @@ a:hover {
   display: block;
 }
 
-/* Cabecalho Acima/ Barra de navegacao  */
+/* CABE«ALHO/BARRA DE NAVEGA«√O  */
 
 
-  .container {      /*    parte do video e da caixa de dentro do video  'planos e tals'   */
+  .container {      /* TRAILER/CAIXA DO VIDEO */
   position: relative;
   max-width: 100%;
   margin: 0 auto;
   }
 
-  .container .conteudo {    /*   conteudo = caixa de dentro de video   */
+  .container .conteudo {    
   position: absolute;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.685); /*  cor da caixa de conteudo com opacidade nao padrao  */
-  color: #f1f1f1;     /*cor das palavras */
-  width: 24%;      /*medidas da caixa*/
+  background: rgba(0, 0, 0, 0.685); 
+  color: #f1f1f1;     
+  width: 24%;     
   padding: 20px;
   bottom: 15%;
   left: 9.5%;
@@ -105,14 +105,14 @@ a:hover {
   border-radius: 7px;
   }
 
-/* imagens do slideshow */
+/* IMAGENS DO SLIDESHOW */
 .slideshow-imgs {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* botoes de 'avancar' e 'voltar' no slide */
+/*BOT’ES DE 'AVAN«AR' E 'VOLTAR' NO SLIDE*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -128,13 +128,13 @@ a:hover {
   user-select: none;
 }
 
-/* Posicao do botao 'avan√ßar' na direita do slide */
+/*POSI«√O DO BOT√O 'AVAN«AR'*/
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* botao 'avanca' e 'volta' fica preto com hover */
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
