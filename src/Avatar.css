@@ -83,7 +83,7 @@ a:hover {
   display: block;
 }
 
-/*   acima é treco do kauã pra parte de cima   */
+/* Cabecalho Acima/ Barra de navegacao  */
 
 
   .container {      /*    parte do video e da caixa de dentro do video  'planos e tals'   */
@@ -112,7 +112,7 @@ a:hover {
   margin: auto;
 }
 
-/* botoes de 'avançar' e 'voltar' no slide */
+/* botoes de 'avancar' e 'voltar' no slide */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -134,7 +134,7 @@ a:hover {
   border-radius: 3px 0 0 3px;
 }
 
-/* botao 'avança' e 'volta' fica preto com hover */
+/* botao 'avanca' e 'volta' fica preto com hover */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -148,14 +148,14 @@ html {
   background-image: linear-gradient(to bottom, #0E0E1D,#00000036 , #0e0e42);
   font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
 }
-
+ /*BOTAO DA CAIXA DE VIDEO*/
 .butao{
   border: 5px solid #ffffff;
   border-style: double;
   padding: 6px;
 
 }
-/* FOOTER */
+/* FOOTER ABAIXO*/
 
 footer{
   border-top: solid 1px #661818;

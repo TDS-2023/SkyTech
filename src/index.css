@@ -97,6 +97,7 @@ a:active{
 .dropup:hover .dropup-content {
     display: block;
 }
+/*Cabecalho/Barra de navegacao Acima*/
 
 /*BODY e MAIN*/
 
@@ -480,6 +481,7 @@ p {
     transition: .3s ease;
 }
 
+/*Footer Abaixo*/
 
 footer{
     display: flex;

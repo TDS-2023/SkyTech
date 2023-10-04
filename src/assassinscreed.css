@@ -84,7 +84,7 @@ a:hover {
   display: block;
 }
 
-/*   acima é treco do kauã pra parte de cima   */
+/* Cabecalho Acima/ Barra de navegacao  */
 
 
   .container {      /*    parte do video e da caixa de dentro do video  'planos e tals'   */
@@ -130,13 +130,13 @@ a:hover {
   user-select: none;
 }
 
-/* Posicao do botao 'avançar' na direita do slide */
+/* Posicao do botao 'avancar' na direita do slide */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* botao 'avança' e 'volta' fica preto com hover */
+/* botao 'avanca' e 'volta' fica preto com hover */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
@@ -145,14 +145,14 @@ html {
   background-color: #000000;
   background-image: linear-gradient(to bottom, #0E0E1D,#00000036 , #0e0e42);
 }
-
+/*botao da caixa do video*/
 .butao{
   border: 5px solid #ffffff;
   border-style: double;
   padding: 6px;
 }
 
-
+/*Footer Abaixo*/
 footer{
   border-top: solid 1px #661818;
   align-items: center;

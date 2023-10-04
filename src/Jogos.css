@@ -23,7 +23,7 @@ header {
   height: 70px;
   border-bottom: solid 1.5px #661818;
 }
-/* BARRA DE NAVEGAÇÃO */
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -81,6 +81,7 @@ a:hover {
 .dropup:hover .dropup-content {
   display: block;
 }
+/*BARRA DE NAVEGACAO/CABECALHO*/
 
 .banner {
   width: 100%;
@@ -98,7 +99,7 @@ a:hover {
 
 /*------------MAIN------*/
 /* NOVIDADES */
-/* GRADE DE LANÇAMENTOS */
+/* GRADE DE LANCAMENTOS */
 
 .grade_de_lancamento {
   display: inline;
@@ -240,7 +241,7 @@ strong {
 .galeria1 a:last-child {
   margin-right: 0; /* Remove a margem à direita da última imagem */
 }
-/* FOOTER */
+/* FOOTER ABAIXO */
 
 footer{
   border-top: solid 1px #661818;

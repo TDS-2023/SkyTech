@@ -80,21 +80,7 @@ a:hover {
 .dropup:hover .dropup-content {
   display: block;
 }
-
-.banner {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.banner img {
-  width: 100%;
-  height: auto;
-  display: none;
-}
-
+/*Cabecalho/Barra de navegacao Acima*/
 html {
   margin: 0;
   padding: 0;
@@ -104,15 +90,7 @@ html {
   background-image: linear-gradient(to top, #0E0E1D, #101035);
   font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
 }
-
-/*------- não mecher acima ------*/
-
-
-
-
-
-
-/*---- Elementos do  Html ----*/
+/*---- Elementos do  Html Acima----*/
 
 h1,
 h2,
@@ -241,7 +219,7 @@ strong {
 .Forum {
   padding: 5px 5px 5px 150px;
 }
-
+/*Footer Abaixo*/
 footer{
   border-top: solid 1px #661818;
   align-items: center;
