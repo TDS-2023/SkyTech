@@ -1,5 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Poppins:wght@300&display=swap');
 
+  header {
+    background-color: #0E0E1D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 750px;
+    height: 70px;
+    border-bottom: solid 1.5px #661818;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    transition: ease-in .2s;
+    color: #e93434;
+  }
+
+  .dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #0E0E1D;
+    min-width: 200px;
+    top: 35px;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropup-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+  }
+
+  .dropup-content a:hover {
+    color: #ee313e;
+  }
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  /* Cabeçalho Acima*/
+
 body {
     background-color: #0E0E1D;
 }
@@ -81,6 +152,7 @@ main {
     color: whitesmoke; 
     font-size: 14px; 
 }
+/* Conteudo Acima*/
 
 .bloco3 button {
     width: 150px;
@@ -91,6 +163,7 @@ main {
     font-size: 18px;
     
 }
+
 .glow-on-hover {
     border: none;
     outline: none;
@@ -155,7 +228,8 @@ main {
     100% {
         background-position: 0 0;
     }
-}
+} /*Botão Animado Acima*/
+
 
 :root {
     --gradient-shadow: linear-gradient(45deg,
@@ -208,5 +282,9 @@ main {
         background-position: 0 0;
     }
 }
+<<<<<<< Updated upstream
 
 
+=======
+/* Borda Animada Acima*/
+>>>>>>> Stashed changes
