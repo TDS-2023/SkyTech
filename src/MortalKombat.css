@@ -146,13 +146,14 @@ html {
   background-image: linear-gradient(to bottom, #0E0E1D,#00000036 , #0e0e42);
 }
 
+/*botão da caixa de video*/
 .butao{
   border: 5px solid #ffffff;
   border-style: double;
   padding: 6px;
 }
 
-
+/*footer Abaixo*/
 footer{
   border-top: solid 1px #661818;
   align-items: center;
