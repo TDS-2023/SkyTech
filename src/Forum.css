@@ -5,6 +5,12 @@
   margin: 0;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
   background-color: #0E0E1D;
   display: flex;
@@ -14,6 +20,7 @@ header {
   gap: 750px;
   height: 70px;
   border-bottom: solid 1.5px #661818;
+  width: 100%;
 }
 
 .menu {
@@ -129,7 +136,7 @@ h1 {
 
 h2,
 h4 {
-  font-size: 28px;
+  font-size: 16px;
 }
 
 /*tamanho da fonte dos H's*/
@@ -235,12 +242,50 @@ strong {
   padding: 5px 5px 5px 150px;
 }
 
-footer {
-  color: #999999;
-  margin: 10px 35px;
-  padding: 10px 50px;
-  line-height: 20px;
-  border: 1px solid #1a1a1a;
-  border-radius: 25px;
-  background-image: linear-gradient(#0E0E1D, #101035);
+footer{
+  border-top: solid 1px #661818;
+  align-items: center;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom,#00000025,#12038148,#00000050);
+  padding-top: 20px;
+  padding-bottom: 1%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.conteudo-rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conteudo-rodape h1{
+  width: 50%;
+  font-size: 40px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+
+.links:hover{
+  color: #F31020;
+  transition: .2s ease-in;
+}
+
+.rodape h1{
+  background-image: linear-gradient(to bottom, #f31020, #d26a6a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
