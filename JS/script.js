@@ -25,9 +25,16 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var btn = document.querySelector(".enviar");
+var btn2 = document.querySelector("#btn1")
+
 
 btn.addEventListener("click", click);
+btn2.addEventListener("click", click);
 
 function Enviar(){
     alert("Mensagem enviada com sucesso, aguarde uma resposta de um de nossos atendentes de suporte em seu e-mail!");
 };
+
+function Aviso(){
+    window.prompt("Adicione seu e-mail para ficar por dentro do lançamento de nossos planos!")
+}
