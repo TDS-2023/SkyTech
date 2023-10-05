@@ -97,7 +97,7 @@ a:active{
 .dropup:hover .dropup-content {
     display: block;
 }
-/*CABEÇALHO/BARRA DE NAVEGAÇÃO*/
+/*CABEï¿½ALHO/BARRA DE NAVEGAï¿½ï¿½O*/
 
 /*BODY e MAIN*/
 
@@ -267,6 +267,7 @@ p {
     -webkit-text-fill-color: transparent;
     background-size: 400% 100%;
     animation: degrade 20s linear infinite alternate;
+    font-family: "Roboto", sans-serif;
 }
 
 @keyframes degrade {
