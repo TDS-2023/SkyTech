@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal Kombat 1 | SkyTech Gaming</title>
+    <link rel="shortcut icon" type="imagex/png" href="../img/logoPagina.png">
+    <link rel="stylesheet" href="MortalKombat.css">
+</head>
+<body>
+    <header>
+      <a href="../Index.html"><img src="/img/Capturar-removebg-preview.png" alt=""></a>
+        <nav class="menu">
+            <a href="../Index.html">Home</a>
+            <a href="Contato.html">Contato</a>
+            <a href="Forum.html">Forum</a>
+            <div class="dropup">
+                <a class="dropbtn" href="Jogos.html">Jogos</a>
+                <div class="dropup-content">
+                  <a href="assassinscreed.html">Assassin's Creed Mirage</a>
+                  <a href="EldenRing.html">Elden Ring</a>
+                  <a href="Avatar.html">Avatar : Fronties of Pandora</a>
+                  <a href="MortalKombat.html">Mortal Kombat 1</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--CABECALHO/BARRA DE NAVEGACAO ACIMA -->
+
+    <main class="container">
+      <iframe width="100%" height="890" src="https://www.youtube.com/embed/UZ6eFEjFfJ0?si=07UEXbxPhfAdwxie&amp;controls=0&amp;showinfo=0&amp;start=2&amp;autoplay=1&amp;loop=1&amp;fs=0&amp;playlist=UZ6eFEjFfJ0&showinfo=0&rel=0&enablejsapi=1&" title="Mortal Kombat1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; loop" allowfullscreen></iframe>
+  <div class="conteudo">
+    <center><h1><b>Mortal Kombat 1</b></h1><br>
+        <p>O jogo de luta mais famoso volta com uma nova história, novos cenários, com um Kombate totalmente novo e melhorado .</p><br><br><br>
+        <a href="https://www.mortalkombat.com/pt-br" target="_blank" class="butao">ADQUIRA AGORA <br></a><br><br><br>
+        <a href="Planos.html" class="butao">ADQUIRA PELO PLANO</a>
+      </div>
+    </center>
+  </div><br>
+</div>
+<!--TRAILER DO JOGO ABAIXO-->
+
+<div class="slideshow-imgs">
+
+<div class="mySlides fade">
+  <img src="../img/Mortal Combat.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../img/mortalkombat2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../img/NewMortalKombat1.png" style="width:100%">
+</div>
+<!--IMAGENS DOS SLIDES ACIMA-->
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</main>
+<br>
+
+<!--FOOTER ABAIXO-->
+<footer>
+  <div class="rodape">
+      <div class="conteudo-rodape">
+      <h1>ENCONTRE O JOGO PERFEITO PARA VOCÊ SE DIVERTIR!</h1>
+          <div class="links">
+              <a href="Jogos.html">Jogos</a>
+              <a href="Forum.html">FAQ</a>
+              <a href="Contato.html">Suporte</a>
+              <a href="Planos.html">Planos</a>
+          </div>
+      </div>
+      <h4>Copyright © 2023 TDS - SENAI. Todos direitos reservados.</h4>
+  </div>
+</footer>
+
+
+<!-- SCRIPT PARA MUDAR OS SLIDES-->
+ <script> 
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
