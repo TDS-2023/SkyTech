@@ -29,5 +29,5 @@ var btn = document.querySelector(".enviar");
 btn.addEventListener("click", click);
 
 function Enviar(){
-    alert("Mensagem enviada com sucesso, aguarde uma resposta de um de nossos suport em seu e-mail!");
+    alert("Mensagem enviada com sucesso, aguarde uma resposta de um de nossos atendentes de suporte em seu e-mail!");
 };
