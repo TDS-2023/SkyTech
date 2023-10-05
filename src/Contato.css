@@ -74,7 +74,7 @@ a:hover {
 .dropup:hover .dropup-content {
   display: block;
 }
-/*Cabecalho/ Barra de navegacao */
+/*CABEÇALHO/BARRA DE NAVEGAÇÃO */
 
 body {
   background-image: linear-gradient(#0b0b1d, #010113);
@@ -203,7 +203,7 @@ button:hover {
   color: #f41616;
 }
 
-/*Footer Abaixo*/
+/*FOOTER ABAIXO*/
 footer {
   align-items: center;
   color: #ffffff;

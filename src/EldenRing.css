@@ -75,9 +75,9 @@
   .dropup:hover .dropup-content {
     display: block;
   }
-  /*Cabeçalho Acima/ Bara de Navegacao*/
+  /*CABEÇALHO/BARRA DE NAVEGAÇÃO*/
   
-  .container {      /*    parte do video e da caixa de dentro do video   */
+  .container {      /*TRAILER/CAIXA DO VIDEO*/
     position: relative;
     max-width: 100%;
     margin: 0 auto;
@@ -90,12 +90,12 @@
     }
 
   
-    .container .conteudo {    /*   conteudo = caixa de dentro de video   */
+    .container .conteudo {    
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.685); /*  cor da caixa de conteudo com opacidade nao padrao  */
+    background: rgba(0, 0, 0, 0.685); 
     color: #f1f1f1;     
-    width: 24%;      /*medidas da caixa*/
+    width: 24%;      
     padding: 20px;
     max-height: 25%;
     bottom: 15%;
@@ -104,14 +104,14 @@
     border-radius: 7px;
     }
   
-  /* imagens do slideshow */
+  /*IMAGENS DO SLIDESHOW  */
   .slideshow-imgs {
     max-width: 1000px;
     position: relative;
     margin: auto;
   }
   
-  /* botoes de 'avançar' e 'voltar' no slide */
+  /* BOTÕES DE 'AVANÇAR' E 'VOLTAR' NO SLIDE */
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -127,13 +127,13 @@
     user-select: none;
   }
   
-  /* Posicao do botao 'avançar' na direita do slide */
+  /*POSIÇÃO DO BOTÃO 'AVANÇAR'*/
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* botao 'avançar' e 'volta' fica preto com hover */
+ 
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
@@ -147,13 +147,13 @@
     background-image: linear-gradient(to bottom, #0c0b0b,#000000 , #12016ee6);
     font: normal 12px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
   }
-  /* botao da caixa do video*/
+  /*BOTAO DA CAIXA DE VIDEO*/
   .butao{
     border: 5px solid #ffffff;
     border-style: double;
     padding: 6px;
 }
-/* Footer Abaixo*/
+/* FOOTER ABAIXO*/
 footer{
   border-top: solid 1px #661818;
   align-items: center;

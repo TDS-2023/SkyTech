@@ -69,7 +69,7 @@
   .dropup:hover .dropup-content {
     display: block;
   }
-  /* Cabeçalho Acima/barra de navegacao*/
+  /* CABECALHO/BARRA DE NAVEGACAO ACIMA */
 
 body {
     background-color: #0E0E1D;
@@ -151,7 +151,7 @@ main {
     color: whitesmoke; 
     font-size: 14px; 
 }
-/* Conteudo Acima*/
+/* CONTEÚDO ACIMA*/
 
 .bloco3 button {
     width: 150px;
@@ -227,7 +227,7 @@ main {
     100% {
         background-position: 0 0;
     }
-} /*Botão Animado Acima*/
+} /*BOTÃO ANIMADO ACIMA*/
 
 
 :root {
@@ -281,4 +281,4 @@ main {
         background-position: 0 0;
     }
 }
-/* Borda Animada Acima*/
+/* BORDA ANIMADA ACIMA*/
